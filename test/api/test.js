@@ -2,7 +2,7 @@ const chakram = require('chakram');
 
 const { expect } = require('chakram');
 
-describe('Redux-ToDoApp', () => {
+describe.skip('Redux-ToDoApp', () => {
   describe('API', () => {
 
     before(() => {
