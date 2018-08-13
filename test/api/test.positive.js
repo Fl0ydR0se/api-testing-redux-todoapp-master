@@ -13,12 +13,7 @@ describe('Reset DB', () => {
         return chakram.wait();
     });
 
-    describe('positive', () => {
-        // let task = {
-        //   "text": "todo",
-        //   "completed": false,
-        //   "id": 1,
-        // };
+    describe('positive test 1', () => {
 
         it("create task and check response status", () => {
             let task = {
@@ -40,5 +35,6 @@ describe('Reset DB', () => {
               });
             return chakram.wait();
             })
+  
         })  
 })
